@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root{
+    --black:#000000;
+    --theme-color:#25599d;
+    --grey-600:#505050;
+    --white:#ffffff;
+}
+
+/* Common CSS */
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size:64px;
+    font-weight:800;
+    color: var(--white);
+    line-height: 72px;
+}
+h1 span{
+    font-size:90px;
+    line-height:108px;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight:800;
+    line-height:72px;
+    letter-spacing: 0.96px;
+    text-transform: uppercase;
+    color: var(--theme-color);
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight:800;
+    letter-spacing: 0.96px;
+    text-transform: uppercase;
+    color: var(--theme-color);
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin-bottom: 0;
+    color: var(--black);
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    animation-duration: 800ms;
+}
+
+.menu__wrapper.fixed-top{
+    background: #ffffffe6;
+    padding: 10px 0;
+}
+
+/* Header Section Start */
+.header__area{
+    padding-top: 40px;
+    padding-bottom: 70px;
+    background:url('../images/banner__bg.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.navbar{
+    padding-top: 0!important;
+    padding-bottom: 0!important;
+}
+
+.main__menu ul li:not(:last-child){
+    margin-right: 40px;
+}
+.main__menu ul li{
+    position: relative;
+}
+.main__menu ul li::after{
+    content: " ";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    background-color: var(--theme-color);
+    width: 0;
+    height: 2px;
+    transition: all 300ms ease-out;
+}
+.main__menu ul li:hover::after{
+    width: 16px;
+}
+.main__menu ul li a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color:var(--black);
+    transition: all 300ms ease-in-out;
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+.main__menu ul li:hover a{
+    color:var(--theme-color);
+}
+.banner__content{
+    padding-top: 100px;
+}
+.banner__content h1{
+    letter-spacing: 0.96px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.banner__content h1,
+.banner__content p{
+    text-shadow: 0px 9px 15.5px rgba(0, 0, 0, 0.09);
+}
+.banner__content p{
+    font-size: 20px;    
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.96px;
+    color: var(--white);
+    width: 100%;
+    max-width:770px;
+    margin: 64px auto 0 auto;
+}
+
+
+/* Header Section End */
+
+/* What we do section start */
+.what__we-do-area{
+    padding:108px 0;
+    background:url('../images/what-banner.png');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    scroll-margin-top: 60px;
+}
+.what__content{
+    padding-bottom: 54px;
+}
+.what__content p{
+    font-family: 'Montserrat', sans-serif;
+    font-size:20px;
+    font-weight:600;
+    line-height:29px;
+    letter-spacing: 0.96px;
+    color: var(--black);
+    width: 100%;
+    max-width: 770px;
+    margin: 16px auto 0 auto;
+}
+.what__card{
+    padding:0 8px;
+}
+.what__card img{
+    margin-bottom: 42px;
+}
+.card__content p{
+    line-height:29px;
+    font-weight: 600;
+    letter-spacing:0.96px;
+}
+.card__content p:not(:last-child){
+    margin-bottom: 42px;
+}
+/* What we do section End */
+
+/* Our Process Section Start */
+.our__process{
+    padding: 108px 0;
+    min-height: 897px;
+    position: relative;
+    scroll-margin-top: 60px;
+}
+.process__content h2{
+    margin-bottom: 40px;
+}
+.process__content p{
+    line-height:29px;
+    font-weight: 500;
+    letter-spacing:0.96px;
+}
+.process__content p:not(:last-child){
+    margin-bottom: 48px;
+}
+.our__process-row .process__img-col img{
+    position:absolute;
+    right:0;
+    top: 0;
+}
+/* Our Process Section End */
+
+/* Trend Market Section */
+
+.trend__market-area{
+    padding: 120px 0;
+    background:url('../images/trend-bg.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.trend__market-title{
+    margin-bottom: 48px;
+}
+.trend__market-left-content p{
+    line-height:29px;
+    font-weight: 500;
+    letter-spacing:0.96px;
+    margin-bottom: 80px;
+}
+.trend__market-right-content p{
+    line-height:29px;
+    font-weight: 500;
+    letter-spacing:0.96px;
+}
+.trend__list{
+    margin-top: 32px;
+}
+.trend__list .list__img{
+    padding-right:16px;
+}
+.trend__list .list__img img{
+    width:8px;
+    max-width:13px;
+}
+/* Trend Market Section */
+
+/* Abotu Us section */
+.about__us{
+    padding: 225px 0;
+    background:url('../images/about-banner.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    scroll-margin-top: 60px;
+}
+.about__content{
+    padding-right: 66px;
+}
+.about__content h2{
+    margin-bottom: 40px;
+}
+.about__content p{
+    line-height:29px;
+    font-weight: 500;
+    letter-spacing:0.96px;
+}
+.about__content p:not(:last-child){
+    margin-bottom: 48px;
+}
+.about__content p:last-child{
+    font-size: 20px;
+    font-weight:700;
+    color: var(--theme-color)
+}
+/* Abotu Us section */
+
+
+/* Footer Area Start */
+.footer__area{
+    padding:20px 0;
+}
+.footer__content p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--grey-600);
+}
+/* Footer Area End */
