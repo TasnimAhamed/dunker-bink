@@ -194,7 +194,7 @@ p{
     margin: 16px auto 0 auto;
 }
 .what__card{
-    padding:0 8px;
+    padding:0 20px;
 }
 .what__card img{
     margin-bottom: 42px;
@@ -217,7 +217,7 @@ p{
     scroll-margin-top: 60px;
 }
 .process__content h2{
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 .process__content p{
     line-height:29px;
@@ -244,13 +244,19 @@ p{
     background-size:cover;
 }
 .trend__market-title{
-    margin-bottom: 48px;
+    margin-bottom: 20px;
+}
+.trend__market-left-col{
+    padding-right: 28px;
+}
+.trend__market-right-col{
+    padding-left: 28px;
 }
 .trend__market-left-content p{
     line-height:29px;
     font-weight: 500;
     letter-spacing:0.96px;
-    margin-bottom: 80px;
+    margin-bottom: 64px;
 }
 .trend__market-right-content p{
     line-height:29px;
