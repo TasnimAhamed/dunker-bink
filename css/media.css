@@ -264,6 +264,14 @@
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) and ( max-width:1399px ){ 
 
+    p{
+        font-size: 16px;
+    }
+    .banner__content p,
+    .what__content p {
+        font-size: 18px;
+        max-width: 695px;
+    }
     /* Our Process Section Start */
     .our__process-row .process__img-col img{
         width: 50%;
