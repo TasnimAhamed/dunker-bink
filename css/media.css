@@ -7,7 +7,105 @@
 @media (min-width: 768px) and (max-width:991px) {  }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199px ){  }
+@media (min-width: 992px) and (max-width: 1199px ){ 
+    
+    /* Header Area Start */
+    .logo img{
+        width:100%;
+        max-width: 250px;
+    }
+    h1{
+        font-size:48px;
+        line-height:64px;
+    }
+    h1 span{
+        font-size:64px;
+        line-height:72px;
+    }
+    h2{
+        font-size:40px;
+        line-height:56px;
+    }
+    h3{
+        font-size:20px;
+    }
+    p{
+        font-size:16px;
+    }
+    .banner__content{
+        padding-top: 72px;
+    }
+    .banner__content p {
+        font-size: 18px;
+        max-width: 708px;
+        margin: 40px auto 0 auto;
+    }
+    /* Header Area End */
+
+    /* What to do section Start */
+    .what__we-do-area {
+        padding: 80px 0;
+    }
+    .what__content {
+        padding-bottom: 40px;
+    }
+    .what__content p{
+        font-size: 18px;
+        max-width: 684px;
+        margin: 12px auto 0 auto;
+    }
+    .what__card img{
+        margin-bottom: 32px;
+    }
+    .card__content p:not(:last-child){
+        margin-bottom: 24px;
+    }
+    /* What to do section End */
+
+    /* Our Process Section Start */
+    .our__process {
+        padding:72px 0;
+    }
+    .process__content h2 {
+        margin-bottom: 24px;
+    }
+    .our__process-row .process__img-col img{
+        width: 50%;
+        object-fit: cover;
+        height: 100%;
+        object-position: left;
+    }
+    .process__content p:not(:last-child) {
+        margin-bottom: 32px;
+    }
+    /* Our Process Section End */
+
+    /* Trend Market Area */
+    .trend__market-area {
+        padding:80px 0;
+    }
+    .trend__list .list__img img {
+        width: 7px;
+        max-width: 7px;
+    }
+    /* Trend Market Area */
+
+    /* About Us Section Start */
+    .about__us {
+        padding: 64px 0;
+    }
+    .about__content h2 {
+        margin-bottom: 24px;
+    }
+    .about__content p:not(:last-child) {
+        margin-bottom: 32px;
+    }
+    .about__content p:last-child{
+        font-size:18px;
+    }
+    /* About Us Section End */
+
+}
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) and ( max-width:1399px ){ 
