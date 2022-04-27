@@ -101,6 +101,12 @@ p{
     padding-top: 0!important;
     padding-bottom: 0!important;
 }
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.navbar-toggler img{
+    width:24px;
+}
 
 .main__menu ul li:not(:last-child){
     margin-right: 40px;
@@ -146,6 +152,9 @@ p{
 .banner__content h1,
 .banner__content p{
     text-shadow: 0px 9px 15.5px rgba(0, 0, 0, 0.09);
+}
+.banner__content  img{
+    margin:0 auto;
 }
 .banner__content p{
     font-size: 20px;    

@@ -28,12 +28,6 @@
     .logo img{
         max-width:180px;
     }
-    .navbar-toggler:focus{
-        box-shadow: none;
-    }
-    .navbar-toggler img{
-        width:24px;
-    }
     .banner__content h1{
         margin-bottom: 32px;
     }
@@ -91,6 +85,7 @@
     .our__process-row .process__img-col img{
         position:unset;
         margin-top: 36px;
+        width: 100%;
     }
     /* Our Process Section */
 
@@ -153,12 +148,110 @@
     /* Footer Area */
 
 
- }
+}
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width:767px){  }
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width:991px) {  }
+@media (min-width: 768px) and (max-width:991px) {
+
+    h1{
+        font-size:48px;
+        line-height:64px;
+    }
+    h1 span{
+        font-size:72px;
+        line-height:80px;
+    }
+    h2 {
+        font-size:40px;
+        line-height:56px;
+    }
+    h3 {
+        font-size:20px;
+    }
+    p{
+        font-size: 16px;
+    }
+    .logo img{
+        max-width:250px;
+    }
+    .banner__content {
+        padding-top: 80px;
+    }
+    .banner__content h1{
+        margin-bottom: 32px;
+    }
+    .banner__content p {
+        font-size: 18px;
+        margin: 56px auto 0 auto;
+    }
+    .what__we-do-area {
+        padding: 80px 0;
+    }
+    .what__content p{
+        font-size: 18px;
+    }
+    .what__content {
+        padding-bottom: 40px;
+    }
+    .what__card img {
+        margin-bottom: 28px;
+        width: 100%;
+    }
+    .card__content p{
+        font-weight: 500;
+    }
+    .card__content p:not(:last-child){
+        margin-bottom: 32px;
+    }
+    .card-2{
+        margin:40px 0;
+    }
+    .our__process{
+        padding: 80px 0;
+    }
+    .process__content h2{
+        margin-bottom: 32px;
+    }
+    .process__content p:not(:last-child){
+        margin-bottom: 36px;
+    }
+    .our__process-row .process__img-col img{
+        position:unset;
+        margin-top: 36px;
+        width: 100%;
+    }
+    .trend__market-area{
+        padding: 80px 0;
+    }
+    .trend__market-title {
+        margin-bottom: 32px;
+    }
+    .trend__market-left-content p{
+        margin-bottom: 32px;
+    }
+    .trend__market-left-content img{
+        width:100%;
+        margin-bottom: 32px;
+    }
+    .about__us{
+        padding: 80px 0;
+    }
+    .about__content{
+        padding-right: 0;
+    }
+    .about__content h2{
+        margin-bottom: 32px;
+    }
+    .about__content p:not(:last-child) {
+        margin-bottom: 32px;
+    }
+    .about__content p:last-child{
+        font-size:16px;
+    }
+
+  }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199px ){ 
@@ -218,7 +311,7 @@
 
     /* Our Process Section Start */
     .our__process {
-        padding:72px 0;
+        padding:80px 0;
     }
     .process__content h2 {
         margin-bottom: 24px;
@@ -238,6 +331,9 @@
     .trend__market-area {
         padding:80px 0;
     }
+    .trend__list{
+        margin-top: 24px;
+    }
     .trend__list .list__img img {
         width: 7px;
         max-width: 7px;
@@ -246,7 +342,7 @@
 
     /* About Us Section Start */
     .about__us {
-        padding: 64px 0;
+        padding: 80px 0;
     }
     .about__content h2 {
         margin-bottom: 24px;
