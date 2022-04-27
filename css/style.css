@@ -91,7 +91,7 @@ p{
 .header__area{
     padding-top: 40px;
     padding-bottom: 70px;
-    background:url('../images/banner__bg.png');
+    background:url('../images/banner__bg.webp');
     background-position: center center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -173,7 +173,7 @@ p{
 /* What we do section start */
 .what__we-do-area{
     padding:108px 0;
-    background:url('../images/what-banner.png');
+    background:url('../images/what-banner.webp');
     background-position: bottom center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -238,7 +238,7 @@ p{
 
 .trend__market-area{
     padding: 108px 0;
-    background:url('../images/trend-bg.png');
+    background:url('../images/trend-bg.webp');
     background-position: center center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -272,7 +272,7 @@ p{
 /* Abotu Us section */
 .about__us{
     padding: 225px 0;
-    background:url('../images/about-banner.png');
+    background:url('../images/about-banner.webp');
     background-position: center center;
     background-repeat: no-repeat;
     background-size:cover;
