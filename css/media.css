@@ -1,5 +1,159 @@
 /*Extra Small devices (phones, 320px and up) */
-@media (min-width: 320px) and (max-width:575px){  }
+@media (min-width: 320px) and (max-width:575px){
+    
+    h1{
+        font-size:22px;
+        line-height:24px;
+    }
+    h1 span{
+        font-size:30px;
+        line-height:36px;
+    }
+    h2{
+        font-size:20px;
+        line-height:30px;
+    }
+    h3{
+        font-size:16px;
+    }
+    p{
+        font-size:14px;
+    }
+
+    /* Header Area Start */
+    .header__area {
+        padding-top: 24px;
+        padding-bottom: 40px;
+    }
+    .logo img{
+        max-width:180px;
+    }
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    .navbar-toggler img{
+        width:24px;
+    }
+    .banner__content h1{
+        margin-bottom: 32px;
+    }
+    .banner__content p{
+        font-size:14px;
+        line-height:22px;
+        margin-top: 40px;
+        padding:0 8px;
+    }
+    .banner__content {
+        padding-top: 64px;
+    }
+    /* Header Area End */
+
+    /* What we do section */
+    .what__we-do-area {
+        padding:48px 0;
+    }
+    .what__content p{
+        font-size:14px;
+        line-height:22px;
+        padding:0 8px;
+    }
+    .what__content {
+        padding-bottom: 48px;
+    }
+    .what__card img {
+        margin-bottom: 26px;
+    }
+    .card__content p{
+        line-height:22px;
+        font-weight: 500;
+    }
+    .card__content p:not(:last-child){
+        margin-bottom: 32px;
+    }
+    .card-2{
+        margin:48px 0;
+    }
+    /* What we do section */
+
+    /* Our Process Section */
+    .our__process{
+        padding:46px 0;
+    }
+    .process__content h2{
+        margin-bottom: 16px;
+    }
+    .process__content p{
+        line-height:22px;
+    }
+    .process__content p:not(:last-child){
+        margin-bottom: 36px;
+    }
+    .our__process-row .process__img-col img{
+        position:unset;
+        margin-top: 36px;
+    }
+    /* Our Process Section */
+
+    /* Trend Market Section */
+    .trend__market-area {
+        padding: 48px 0;
+    }
+    .trend__market-title{
+        margin-bottom: 16px;
+        text-align: left!important;
+    }
+    .trend__market-left-content p{
+        line-height: 22px;
+        margin-bottom: 36px;
+    }
+    .trend__market-right-content{
+        margin-top: 36px;
+    }
+    .trend__market-right-content p{
+        line-height: 22px;
+    }
+    .trend__list{
+        margin-top: 28px;
+    }
+    .trend__list .list__img img {
+        width: 7px;
+        max-width: 7px;
+    }
+    /* Trend Market Section */
+
+    /* About Us section */
+    .about__us {
+        padding: 48px 0;
+        background-position: left center;
+    }
+    .about__content{
+        padding-right: 0;
+    }
+    .about__content h2{
+        margin-bottom: 16px;
+    }
+    .about__content p{
+        line-height:22px;
+    }
+    .about__content p:not(:last-child){
+        margin-bottom: 36px;
+    }
+    .about__content p:last-child{
+        font-size:16px;
+    }
+    /* About Us section */
+
+    /* Footer Area */
+    .footer__area {
+        padding:16px 0;
+    }
+    .footer__content p{
+        font-size:13px;
+    }
+    /* Footer Area */
+
+
+ }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width:767px){  }
 
